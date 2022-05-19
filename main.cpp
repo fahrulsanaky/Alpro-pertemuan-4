@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Andi{
+class Rida{
 	private:
 		 int dpt,t[12] ={}, p[12] = {}, b = 0, total_tab = 0,total_pengeluaran = 0;
 	public:
@@ -47,7 +47,7 @@ class Andi{
 
 
 int main(){
-	Andi x;
+	Rida x;
 	x.pendapatan();
 	x.tabung();
 	x.pengeluaran();
